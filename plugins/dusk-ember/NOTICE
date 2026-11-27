@@ -1,0 +1,32 @@
+Dusk & Ember Themes
+Published by synqa-inc in the Synqa Marketplace.
+
+This is a changed copy of a plugin that somebody else made. The people named here do not
+publish, support or stand behind this copy.
+
+The original
+- Name: "Dusk & Ember Themes"
+- Id: stablyai.orca-dusk-ember
+- Publisher: "stablyai"
+- Repository: "https://github.com/stablyai/orca-plugins/tree/main/plugins/dusk-ember"
+- Version: 1.1.0
+- Declared license: MIT
+- Source: https://github.com/stablyai/orca-plugins.git, folder "plugins/dusk-ember"
+- Release commit that the listing names: 07590d2c7bdc8c6c9299123106b9e0525656a411 (not checked)
+- Content hash of the files that were copied: 685d75485ea3df4227dfea89b658c12be723792b298147da24981df8154c98ae
+
+Its license and notice files, unchanged
+- "LICENSE" (MIT): Copyright (c) 2026 Lovecast Inc.
+
+What is different
+- orca-plugin.json is replaced by synqa-plugin.json, with a new id, publisher, name, description, license field and repository.
+- The field "cover" of the plugin file is left out.
+- The field "screenshots" of the plugin file is left out.
+- "images/cover.png" is left out. It is only for a store listing.
+- "images/dusk.png" is left out. It is only for a store listing.
+- "images/ember.png" is left out. It is only for a store listing.
+- "synqa-plugin.json" is added.
+- "README.md" is added.
+- "NOTICE" is added.
+
+Every other file is the original file, byte for byte.

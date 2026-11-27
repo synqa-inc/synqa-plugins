@@ -1,0 +1,24 @@
+{
+  "manifestVersion": 2,
+  "id": "minimal-icons",
+  "name": "Minimal Icons",
+  "version": "2.1.0",
+  "execution": "data",
+  "description": "A compact, mostly monochrome icon theme for common source files, C++, assembly and compiled binaries.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.245"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "minimal",
+        "title": "Minimal",
+        "path": "icons/theme.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "publisher": "synqa-inc",
+  "repository": "https://github.com/synqa-inc/synqa-plugins"
+}
