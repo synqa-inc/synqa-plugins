@@ -162,8 +162,12 @@ function recordedIds(root, errors) {
   return data.plugins.map((item) => item?.newId ?? item?.id).filter(isText)
 }
 
-/** Checks a whole repository folder. Returns a list of problems. */
-export function checkRepo(root) {
+/**
+ * Checks a whole repository folder. Returns a list of problems. An imported plugin arrives in one pull
+ * request and gets its import-record.json entry in the next one, so until then its folder goes into
+ * notes. That holds only for publisher synqa-inc; a plugin from anybody else needs listed.json.
+ */
+export function checkRepo(root, notes = []) {
   const errors = []
   const pluginsDir = join(root, 'plugins')
   const folders = existsSync(pluginsDir)
@@ -182,7 +186,11 @@ export function checkRepo(root) {
   const listedIds = new Set((entries ?? []).map((entry) => entry.id))
   const recordedSet = new Set(recorded ?? [])
   for (const name of folders) {
-    if (!listedIds.has(name) && !recordedSet.has(name)) {
+    if (listedIds.has(name) || recordedSet.has(name)) continue
+    const publisher = manifests.get(name)?.publisher
+    if (isText(publisher) && normal(publisher) === RESERVED_PUBLISHER) {
+      notes.push(`plugins/${name}: imported, waits for its import-record.json entry in the next pull request.`)
+    } else {
       errors.push(`plugins/${name}: is in neither listed.json nor import-record.json.`)
     }
   }
@@ -207,7 +215,9 @@ export function checkRepo(root) {
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const root = resolve(process.argv[2] ?? '.')
-  const errors = checkRepo(root)
+  const notes = []
+  const errors = checkRepo(root, notes)
+  for (const note of notes) console.log(`Note: ${note}`)
   if (errors.length) {
     console.error(`Plugin checks failed (${errors.length}):`)
     for (const error of errors) console.error(`- ${error}`)
