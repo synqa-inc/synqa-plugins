@@ -19,6 +19,6 @@ jobs:
         with:
           node-version: 22
       - name: Self-check of the script
-        run: node --test .github/scripts/
+        run: node --test .github/scripts/check-plugins.test.mjs
       - name: Check the plugins
         run: node .github/scripts/check-plugins.mjs

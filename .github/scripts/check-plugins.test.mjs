@@ -1,4 +1,4 @@
-// Self-check for check-plugins.mjs. Run: node --test .github/scripts/
+// Self-check for check-plugins.mjs. Run: node --test .github/scripts/check-plugins.test.mjs
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs'
