@@ -52,6 +52,17 @@ test('missing files and unlisted folders fail', () => {
   assert.match(text, /neither listed.json nor import-record.json/)
 })
 
+test('an imported folder may wait for its record, a folder from anybody else may not', () => {
+  const root = repo((r) => {
+    plugin(r, 'imported', { publisher: 'synqa-inc' })
+    plugin(r, 'stray', { publisher: 'someone' })
+  })
+  const notes = []
+  const errors = checkRepo(root, notes)
+  assert.deepEqual(notes, ['plugins/imported: imported, waits for its import-record.json entry in the next pull request.'])
+  assert.deepEqual(errors, ['plugins/stray: is in neither listed.json nor import-record.json.'])
+})
+
 test('code files and big files fail', () => {
   const root = repo((r) => {
     plugin(r, 'bad', {}, { 'run.js': 'x', 'big.txt': 'a'.repeat(1024 * 1024 + 1) })
