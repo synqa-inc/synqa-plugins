@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "catalog": {
+    "url": "https://github.com/stablyai/orca-plugins.git",
+    "commit": "1329848789e35eb24ccf1dc946cc360da0dac465"
+  },
+  "retired": [],
+  "plugins": [
+    {
+      "id": "stablyai.orca-dusk-ember",
+      "newId": "dusk-ember",
+      "name": "Dusk & Ember Themes",
+      "version": "1.1.0",
+      "commit": "07590d2c7bdc8c6c9299123106b9e0525656a411",
+      "contentHash": "685d75485ea3df4227dfea89b658c12be723792b298147da24981df8154c98ae",
+      "publishedHash": "e66472d38d2865d3f1d88be4c0dcdd1173b7feaac54d3aff04fd17260d016857",
+      "declaredLicense": "MIT",
+      "execution": "data",
+      "capabilities": [],
+      "hosts": [
+        "github.com"
+      ],
+      "licenses": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3"
+      },
+      "executables": [],
+      "files": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
+        "images/cover.png": "b2614cedfec38ec336874f49756845ab4a3266feeb13c598d7dcd6903a556ca6",
+        "images/dusk.png": "34988d2389baca80cfa77fd79f1df673315544a03e4d0d224107d60da679e0dc",
+        "images/ember.png": "de8c8a2a7f411ab3c8622632b1a491b4af5e4f252091b3597f7d2240b2814fa7",
+        "orca-plugin.json": "5cdb8655c10129a2fca9f0d64434c185090725884e5148c41fec759b24cd79d8",
+        "terminal/dusk.json": "742293a75d40d93e02433832cd459529d8a6836ae6fb8fb9b6d10f18c7d78332",
+        "terminal/ember.json": "097b363b4f53e42b1643a18eb6f0416d129ec6cdab30fb95f5b2f7f4dfb688d6",
+        "themes/dusk.json": "0b3028ee7342320016b1b214e55ca226b0e68cbc03340b31f251180f1ac919ae",
+        "themes/ember.json": "5a5f2b39cb547a8a89e7a37ee399a967b0a9e5e1770efcfd0f47c711595e7677"
+      }
+    },
+    {
+      "id": "stablyai.orca-midnight-theme",
+      "newId": "midnight-theme",
+      "name": "Midnight",
+      "version": "2.1.1",
+      "commit": "07590d2c7bdc8c6c9299123106b9e0525656a411",
+      "contentHash": "03e4f745d2c68e81f341eb161b12f6fd4f7c7c7876f0106222f25a22c0a041e2",
+      "publishedHash": "59ee97456640d8c4bfdd9bc6c2a5dd834592ab0d89f5fc3cfbc73920f9ac69ac",
+      "declaredLicense": "MIT",
+      "execution": "data",
+      "capabilities": [],
+      "hosts": [
+        "github.com"
+      ],
+      "licenses": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3"
+      },
+      "executables": [],
+      "files": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
+        "images/cover.png": "8fec31d4f6f3a77a643f70391914e4d310add2571786b3110951c7d0efb3f671",
+        "images/editor.png": "52e5f60d2101d3ad627145d71796d6df9cba0927d147a72bff7ae6c81c7da229",
+        "images/settings.png": "91fea1694d407b6ccfc6473f68ccfb0a895b7be23cd663c9a2ba8d1d4d934aa7",
+        "orca-plugin.json": "99c4d6e037875d8810f3ee66311426d209ce13ce70d60838585655c05262b895",
+        "themes/midnight.json": "45dabb4947426f401a1344ad2ae1049316df2674f01bf737f68564d5fb0b4d25"
+      }
+    },
+    {
+      "id": "stablyai.orca-minimal-icons",
+      "newId": "minimal-icons",
+      "name": "Minimal Icons",
+      "version": "2.1.0",
+      "commit": "3c4c56d4581f01b40e49140a3374020259d2cbc9",
+      "contentHash": "4390bb758b6bb3a34fa0a68f4a4b6815adab1f85b71e7396de4599a5a0a9e948",
+      "publishedHash": "4de6b517e5113ddeb049ae1715b283dac7e3679d9db987346f0a304dd400ccf8",
+      "declaredLicense": "MIT",
+      "execution": "data",
+      "capabilities": [],
+      "hosts": [
+        "github.com"
+      ],
+      "licenses": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3"
+      },
+      "executables": [],
+      "files": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
+        "icons/assembly.svg": "01bc6509965a3b7069134561953ba01fa100db72b54476cd688958d54545c989",
+        "icons/binary.svg": "85b1912072991b6a6abdfb4bc3d862519f734cb998d00877872321663f6582c2",
+        "icons/cpp.svg": "33b1b7cb0f9c53cd32472b069eb85cb0e23160f67cdb078150bce8a470eea8b7",
+        "icons/file.svg": "d1e028b232297313f39b24569d8fe8eeae4a0da8bd5c2ecc4717989db565c030",
+        "icons/folder-open.svg": "4f560e3c62260c2cacee9f723e3eff14ef40ad9e3c11160d7ddfc4cb9b8f4d39",
+        "icons/folder.svg": "682473ce0e0a9d35c3dc22aa044e98d10eecccc130084191b54425d175af0224",
+        "icons/json.svg": "7d222a36c982edcfd21a2b74c4cfd7d7fdeaa6e4e3d716a48fa23b0dc483eb70",
+        "icons/markdown.svg": "a3684b69cb14a6117ffd485668c5e3b9b06ad063802d694963e8125d2a481d0e",
+        "icons/object.svg": "a592b807012dae46a0acf17c40c6cf5b314e83d23d4a97c4c1df35838fa9e415",
+        "icons/package.svg": "c058ea68a1e4d85c70ea37a9562de07ea4bd4c3d41609b86bf9f23bd91db54ce",
+        "icons/plugin.svg": "ec88e6aafe0afabfe114c4bdc1200fa91b7e949a328bc8991e2d1e3f7be71e0e",
+        "icons/theme.json": "3b0c45de0944dec814e46e1cfe20c07cb8a94613512e2f65ff5fd48b1eb17a39",
+        "icons/typescript.svg": "2b9f2cc51af7f96bb6d0b1472c7cdfcb788810c6666691fa26475e1f85528aea",
+        "images/cover.png": "60565d006e8dd868eae755fa131195ec62cab829135ad0d8c866b3ec61f1b311",
+        "images/explorer.png": "a485fd14f4e0950e90a5ac31faf9793442723553679fc7acccc78d78f66d2fcf",
+        "orca-plugin.json": "3baf8e574a2d505e35951bcec1a3c0ff50591f078c6c3648afcce8bbab0573fb"
+      }
+    },
+    {
+      "id": "stablyai.orca-oled-theme",
+      "newId": "oled-theme",
+      "name": "OLED",
+      "version": "1.1.1",
+      "commit": "07590d2c7bdc8c6c9299123106b9e0525656a411",
+      "contentHash": "0031f20cb30b60b2368ce605c7bfbba6911642f6b323aa395793a66de5a47e44",
+      "publishedHash": "31cfd0e0d0c4b73ef7b24837c2511f54fc3e545263d25c75203094ac36f3742e",
+      "declaredLicense": "MIT",
+      "execution": "data",
+      "capabilities": [],
+      "hosts": [
+        "github.com"
+      ],
+      "licenses": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3"
+      },
+      "executables": [],
+      "files": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
+        "images/cover.png": "3eeb8dc5080745ab62803232f77d0ee79fc6ac1fc2c1bf97466910b2872c425f",
+        "images/palette.png": "7674c8f717f4cfc5dcd369b3217b4d4d7a86927e97a5e8d835af2769619a0d26",
+        "images/workspace.png": "e08f69ec7b91faed608669fc50cbf1ad0b95266e0a513ef8bf6a381176d44975",
+        "orca-plugin.json": "b68f91ec6d3ae4e7dea1086ef42b36a0e83e90b326b4b8dd70d2d6a4ebeb61e5",
+        "terminal/oled-terminal.json": "ea4b0ed91b6ba343264bcce06fa996ced185d81e0f198109ba9661c046b339e8",
+        "themes/oled.json": "b7260706439dfe7a1f4a74f3c8436cd8a6f10efca835f63a1fe610661c472f8a"
+      }
+    },
+    {
+      "id": "stablyai.orca-systemd",
+      "newId": "systemd",
+      "name": "systemd Unit Files",
+      "version": "1.0.0",
+      "commit": "6d9bdfa97689829ce205f5edee415c2406b3856e",
+      "contentHash": "72d4b3906ebbe190cecfe75e9a636376ab160886639545ee07c759927dffa766",
+      "publishedHash": "c5c69d998fb9baf56b6b22c6dce627f5103528ef6cff17ab4c9aafbc35837ee6",
+      "declaredLicense": "MIT",
+      "execution": "data",
+      "capabilities": [],
+      "hosts": [
+        "github.com"
+      ],
+      "licenses": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
+        "syntaxes/systemd-LICENSE.txt": "bf17c0970ec11ccce7156f4ab36b1b9c855f702c8e8c5e90941d8faf1a67d56b"
+      },
+      "executables": [],
+      "files": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
+        "README.md": "60cd8718878470b91d07b07e3c50db951f1a393357b4821b4e669333aed0938b",
+        "orca-plugin.json": "6a075139c336f9d1a38997ed500bdeea908df92ce3bdf9f3dd693de579187c68",
+        "syntaxes/language-configuration.json": "6eef5d6235ceb44b5f153aad43a2359fd16fd697fec1997c7d5ba386b16250f4",
+        "syntaxes/systemd-LICENSE.txt": "bf17c0970ec11ccce7156f4ab36b1b9c855f702c8e8c5e90941d8faf1a67d56b",
+        "syntaxes/systemd.tmLanguage.json": "907cc07ca1c22c54a823083bb5f0558258fb79bd597bbed69544268dd50405f1"
+      }
+    },
+    {
+      "id": "stablyai.orca-taxi",
+      "newId": "taxi",
+      "name": "Taxi Timesheets Syntax",
+      "version": "1.0.0",
+      "commit": "9c8378448c84c41094afdadd1e7c1c6f77227e41",
+      "contentHash": "f91cce41a48d5246544e40e4227b008e0836961b2be68c26ca033c63bd1abd41",
+      "publishedHash": "499dbe30d0b8b149ee03439bd08b9ff1ecd71b1ae4e178a5205133e461bb17be",
+      "declaredLicense": "MIT",
+      "execution": "data",
+      "capabilities": [],
+      "hosts": [
+        "github.com",
+        "raw.githubusercontent.com"
+      ],
+      "licenses": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
+        "syntaxes/taxi-LICENSE.txt": "c6551d8754d5a7b7f8fed5b5ecdf8d3ebd348f94adcfd7f46a8e7d62a1ba52a1"
+      },
+      "executables": [],
+      "files": {
+        "LICENSE": "ff1b611f80580d49f4b97e93a97b24eb050b0671b26b8afe16341fab699112f3",
+        "README.md": "2ae379bfbc0e09e6325c2c1a8e911f1f3a819722964e7a4ca7cc4beb6076f868",
+        "orca-plugin.json": "82ec824b37373a55dd6c0737c5f08864102cfcda7bc6204e59581b74c6ca40c4",
+        "syntaxes/language-configuration.json": "03a173bc9b03fdb52282edfda2671a66a0bbcb6b4383eb2417487f715b373411",
+        "syntaxes/taxi-LICENSE.txt": "c6551d8754d5a7b7f8fed5b5ecdf8d3ebd348f94adcfd7f46a8e7d62a1ba52a1",
+        "syntaxes/taxi.tmLanguage.json": "e71f431280cb28b4a0619b6f683635cf36794eabbbb25be7dcb87371c7fb42c1"
+      }
+    }
+  ]
+}
