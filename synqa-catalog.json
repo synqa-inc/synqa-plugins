@@ -1,0 +1,275 @@
+{
+  "catalogVersion": 2,
+  "name": "Synqa Marketplace",
+  "owner": "synqa-inc",
+  "plugins": [
+    {
+      "id": "synqa-inc.dusk-ember",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/synqa-inc/synqa-plugins.git",
+        "ref": "main",
+        "path": "plugins/dusk-ember"
+      },
+      "description": "A violet dark theme and a warm light theme, with matching terminal colors.",
+      "categories": [
+        "themes",
+        "terminal-themes"
+      ],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "commit": "f7a8614a07b4a0ec5c8bfeea70f659c6b1f66d77",
+          "contentHash": "e66472d38d2865d3f1d88be4c0dcdd1173b7feaac54d3aff04fd17260d016857",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Dusk & Ember Themes",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Dusk"
+            },
+            {
+              "kind": "themes",
+              "name": "Ember"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Dusk"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "Ember"
+            }
+          ],
+          "license": "MIT",
+          "updatedAt": "2026-11-27",
+          "themePreview": [
+            {
+              "label": "Dusk",
+              "base": "dark",
+              "background": "#1d1533",
+              "foreground": "#e8e0ff",
+              "accent": "#c38bff",
+              "surface": "#241843"
+            },
+            {
+              "label": "Ember",
+              "base": "light",
+              "background": "#fff6ec",
+              "foreground": "#3b1d0a",
+              "accent": "#b4410f",
+              "surface": "#fffaf4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synqa-inc.midnight-theme",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/synqa-inc/synqa-plugins.git",
+        "ref": "main",
+        "path": "plugins/midnight-theme"
+      },
+      "description": "A quiet dark theme tuned for long coding sessions.",
+      "categories": [
+        "themes"
+      ],
+      "releases": [
+        {
+          "version": "2.1.1",
+          "commit": "f7a8614a07b4a0ec5c8bfeea70f659c6b1f66d77",
+          "contentHash": "59ee97456640d8c4bfdd9bc6c2a5dd834592ab0d89f5fc3cfbc73920f9ac69ac",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Midnight",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Midnight"
+            }
+          ],
+          "license": "MIT",
+          "updatedAt": "2026-11-27",
+          "themePreview": [
+            {
+              "label": "Midnight",
+              "base": "dark",
+              "background": "#101216",
+              "foreground": "#e8eaf0",
+              "accent": "#e8eaf0",
+              "surface": "#161920"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synqa-inc.minimal-icons",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/synqa-inc/synqa-plugins.git",
+        "ref": "main",
+        "path": "plugins/minimal-icons"
+      },
+      "description": "A compact, mostly monochrome icon theme for common source files, C++, assembly and compiled binaries.",
+      "categories": [
+        "icons"
+      ],
+      "releases": [
+        {
+          "version": "2.1.0",
+          "commit": "f7a8614a07b4a0ec5c8bfeea70f659c6b1f66d77",
+          "contentHash": "4de6b517e5113ddeb049ae1715b283dac7e3679d9db987346f0a304dd400ccf8",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Minimal Icons",
+          "contributes": [
+            {
+              "kind": "iconThemes",
+              "name": "Minimal"
+            }
+          ],
+          "license": "MIT",
+          "updatedAt": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "synqa-inc.oled-theme",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/synqa-inc/synqa-plugins.git",
+        "ref": "main",
+        "path": "plugins/oled-theme"
+      },
+      "description": "A true-black dark theme and terminal theme for OLED displays.",
+      "categories": [
+        "themes"
+      ],
+      "releases": [
+        {
+          "version": "1.1.1",
+          "commit": "f7a8614a07b4a0ec5c8bfeea70f659c6b1f66d77",
+          "contentHash": "31cfd0e0d0c4b73ef7b24837c2511f54fc3e545263d25c75203094ac36f3742e",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "OLED",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "OLED"
+            },
+            {
+              "kind": "terminalThemes",
+              "name": "OLED"
+            }
+          ],
+          "license": "MIT",
+          "updatedAt": "2026-11-27",
+          "themePreview": [
+            {
+              "label": "OLED",
+              "base": "dark",
+              "background": "#000000",
+              "foreground": "#e6e6e6",
+              "accent": "#e6e6e6",
+              "surface": "#000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synqa-inc.systemd",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/synqa-inc/synqa-plugins.git",
+        "ref": "main",
+        "path": "plugins/systemd"
+      },
+      "description": "Syntax highlighting for systemd unit files and Podman Quadlet files.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "f7a8614a07b4a0ec5c8bfeea70f659c6b1f66d77",
+          "contentHash": "c5c69d998fb9baf56b6b22c6dce627f5103528ef6cff17ab4c9aafbc35837ee6",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "systemd Unit Files",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "systemd unit",
+              "detail": ".service, .socket, .timer, .target, .path, .mount, .automount, .swap, .slice, .scope, .device, .snapshot, .link, .netdev, .network, .nspawn, .dnssd, .container, .volume, .kube"
+            }
+          ],
+          "fileTypes": [
+            "service",
+            "socket",
+            "timer",
+            "target",
+            "path",
+            "mount",
+            "automount",
+            "swap",
+            "slice",
+            "scope",
+            "device",
+            "snapshot",
+            "link",
+            "netdev",
+            "network",
+            "nspawn",
+            "dnssd",
+            "container",
+            "volume",
+            "kube"
+          ],
+          "license": "MIT",
+          "updatedAt": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "synqa-inc.taxi",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/synqa-inc/synqa-plugins.git",
+        "ref": "main",
+        "path": "plugins/taxi"
+      },
+      "description": "Syntax highlighting for Taxi timesheet (.tks) files.",
+      "categories": [
+        "languages"
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "commit": "f7a8614a07b4a0ec5c8bfeea70f659c6b1f66d77",
+          "contentHash": "499dbe30d0b8b149ee03439bd08b9ff1ecd71b1ae4e178a5205133e461bb17be",
+          "execution": "data",
+          "minimumOrca": "1.4.245",
+          "name": "Taxi Timesheets Syntax",
+          "contributes": [
+            {
+              "kind": "syntaxes",
+              "name": "Taxi",
+              "detail": ".tks"
+            }
+          ],
+          "fileTypes": [
+            "tks"
+          ],
+          "license": "MIT",
+          "updatedAt": "2026-11-27"
+        }
+      ]
+    }
+  ]
+}
