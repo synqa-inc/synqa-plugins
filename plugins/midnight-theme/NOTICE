@@ -1,0 +1,33 @@
+Midnight
+Published by synqa-inc in the Synqa Marketplace.
+
+This is a changed copy of a plugin that somebody else made. The people named here do not
+publish, support or stand behind this copy.
+
+The original
+- Name: "Orca Midnight"
+- Id: stablyai.orca-midnight-theme
+- Publisher: "stablyai"
+- Repository: "https://github.com/stablyai/orca-plugins/tree/main/plugins/midnight-theme"
+- Version: 2.1.1
+- Declared license: MIT
+- Source: https://github.com/stablyai/orca-plugins.git, folder "plugins/midnight-theme"
+- Release commit that the listing names: 07590d2c7bdc8c6c9299123106b9e0525656a411 (not checked)
+- Content hash of the files that were copied: 03e4f745d2c68e81f341eb161b12f6fd4f7c7c7876f0106222f25a22c0a041e2
+
+Its license and notice files, unchanged
+- "LICENSE" (MIT): Copyright (c) 2026 Lovecast Inc.
+
+What is different
+- orca-plugin.json is replaced by synqa-plugin.json, with a new id, publisher, name, description, license field and repository.
+- The field "cover" of the plugin file is left out.
+- The field "screenshots" of the plugin file is left out.
+- The text at contributes.themes[0].title is now "Midnight".
+- "images/cover.png" is left out. It is only for a store listing.
+- "images/editor.png" is left out. It is only for a store listing.
+- "images/settings.png" is left out. It is only for a store listing.
+- "synqa-plugin.json" is added.
+- "README.md" is added.
+- "NOTICE" is added.
+
+Every other file is the original file, byte for byte.

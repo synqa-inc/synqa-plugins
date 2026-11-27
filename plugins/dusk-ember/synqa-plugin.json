@@ -1,0 +1,41 @@
+{
+  "manifestVersion": 2,
+  "id": "dusk-ember",
+  "name": "Dusk & Ember Themes",
+  "version": "1.1.0",
+  "execution": "data",
+  "description": "A violet dark theme and a warm light theme, with matching terminal colors.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.245"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "dusk",
+        "title": "Dusk",
+        "path": "themes/dusk.json"
+      },
+      {
+        "id": "ember",
+        "title": "Ember",
+        "path": "themes/ember.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "dusk",
+        "title": "Dusk",
+        "path": "terminal/dusk.json"
+      },
+      {
+        "id": "ember",
+        "title": "Ember",
+        "path": "terminal/ember.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "publisher": "synqa-inc",
+  "repository": "https://github.com/synqa-inc/synqa-plugins"
+}

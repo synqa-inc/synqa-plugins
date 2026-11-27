@@ -1,0 +1,29 @@
+Taxi Timesheets Syntax
+Published by synqa-inc in the Synqa Marketplace.
+
+This is a changed copy of a plugin that somebody else made. The people named here do not
+publish, support or stand behind this copy.
+
+The original
+- Name: "Taxi Timesheets Syntax"
+- Id: stablyai.orca-taxi
+- Publisher: "stablyai"
+- Repository: "https://github.com/stablyai/orca-plugins/tree/main/plugins/taxi"
+- Version: 1.0.0
+- Declared license: MIT
+- Source: https://github.com/stablyai/orca-plugins.git, folder "plugins/taxi"
+- Release commit that the listing names: 9c8378448c84c41094afdadd1e7c1c6f77227e41 (not checked)
+- Content hash of the files that were copied: f91cce41a48d5246544e40e4227b008e0836961b2be68c26ca033c63bd1abd41
+
+Its license and notice files, unchanged
+- "LICENSE" (MIT): Copyright (c) 2026 Lovecast Inc.
+- "syntaxes/taxi-LICENSE.txt" (MIT): Copyright 2019 Benoît Burgener
+
+What is different
+- orca-plugin.json is replaced by synqa-plugin.json, with a new id, publisher, name, description, license field and repository.
+- "README.md" is now called "ORIGINAL-README.md".
+- "synqa-plugin.json" is added.
+- "README.md" is added.
+- "NOTICE" is added.
+
+Every other file is the original file, byte for byte.

@@ -1,0 +1,29 @@
+systemd Unit Files
+Published by synqa-inc in the Synqa Marketplace.
+
+This is a changed copy of a plugin that somebody else made. The people named here do not
+publish, support or stand behind this copy.
+
+The original
+- Name: "systemd Unit Files"
+- Id: stablyai.orca-systemd
+- Publisher: "stablyai"
+- Repository: "https://github.com/stablyai/orca-plugins/tree/main/plugins/systemd"
+- Version: 1.0.0
+- Declared license: MIT
+- Source: https://github.com/stablyai/orca-plugins.git, folder "plugins/systemd"
+- Release commit that the listing names: 6d9bdfa97689829ce205f5edee415c2406b3856e (not checked)
+- Content hash of the files that were copied: 72d4b3906ebbe190cecfe75e9a636376ab160886639545ee07c759927dffa766
+
+Its license and notice files, unchanged
+- "LICENSE" (MIT): Copyright (c) 2026 Lovecast Inc.
+- "syntaxes/systemd-LICENSE.txt" (MIT): Copyright (c) 2021 Liu Yue
+
+What is different
+- orca-plugin.json is replaced by synqa-plugin.json, with a new id, publisher, name, description, license field and repository.
+- "README.md" is now called "ORIGINAL-README.md".
+- "synqa-plugin.json" is added.
+- "README.md" is added.
+- "NOTICE" is added.
+
+Every other file is the original file, byte for byte.

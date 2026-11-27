@@ -1,0 +1,29 @@
+{
+  "manifestVersion": 2,
+  "id": "taxi",
+  "name": "Taxi Timesheets Syntax",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "Syntax highlighting for Taxi timesheet (.tks) files.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.245"
+  },
+  "contributes": {
+    "syntaxes": [
+      {
+        "id": "taxi",
+        "title": "Taxi",
+        "scopeName": "source.taxi",
+        "path": "syntaxes/taxi.tmLanguage.json",
+        "configuration": "syntaxes/language-configuration.json",
+        "extensions": [
+          ".tks"
+        ]
+      }
+    ]
+  },
+  "capabilities": [],
+  "publisher": "synqa-inc",
+  "repository": "https://github.com/synqa-inc/synqa-plugins"
+}

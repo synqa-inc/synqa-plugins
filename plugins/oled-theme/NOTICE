@@ -1,0 +1,34 @@
+OLED
+Published by synqa-inc in the Synqa Marketplace.
+
+This is a changed copy of a plugin that somebody else made. The people named here do not
+publish, support or stand behind this copy.
+
+The original
+- Name: "Orca OLED"
+- Id: stablyai.orca-oled-theme
+- Publisher: "stablyai"
+- Repository: "https://github.com/stablyai/orca-plugins/tree/main/plugins/oled-theme"
+- Version: 1.1.1
+- Declared license: MIT
+- Source: https://github.com/stablyai/orca-plugins.git, folder "plugins/oled-theme"
+- Release commit that the listing names: 07590d2c7bdc8c6c9299123106b9e0525656a411 (not checked)
+- Content hash of the files that were copied: 0031f20cb30b60b2368ce605c7bfbba6911642f6b323aa395793a66de5a47e44
+
+Its license and notice files, unchanged
+- "LICENSE" (MIT): Copyright (c) 2026 Lovecast Inc.
+
+What is different
+- orca-plugin.json is replaced by synqa-plugin.json, with a new id, publisher, name, description, license field and repository.
+- The field "cover" of the plugin file is left out.
+- The field "screenshots" of the plugin file is left out.
+- The text at contributes.themes[0].title is now "OLED".
+- The text at contributes.terminalThemes[0].title is now "OLED".
+- "images/cover.png" is left out. It is only for a store listing.
+- "images/workspace.png" is left out. It is only for a store listing.
+- "images/palette.png" is left out. It is only for a store listing.
+- "synqa-plugin.json" is added.
+- "README.md" is added.
+- "NOTICE" is added.
+
+Every other file is the original file, byte for byte.

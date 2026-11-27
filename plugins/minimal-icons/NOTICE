@@ -1,0 +1,31 @@
+Minimal Icons
+Published by synqa-inc in the Synqa Marketplace.
+
+This is a changed copy of a plugin that somebody else made. The people named here do not
+publish, support or stand behind this copy.
+
+The original
+- Name: "Orca Minimal Icons"
+- Id: stablyai.orca-minimal-icons
+- Publisher: "stablyai"
+- Repository: "https://github.com/stablyai/orca-plugins/tree/main/plugins/minimal-icons"
+- Version: 2.1.0
+- Declared license: MIT
+- Source: https://github.com/stablyai/orca-plugins.git, folder "plugins/minimal-icons"
+- Release commit that the listing names: 3c4c56d4581f01b40e49140a3374020259d2cbc9 (not checked)
+- Content hash of the files that were copied: 4390bb758b6bb3a34fa0a68f4a4b6815adab1f85b71e7396de4599a5a0a9e948
+
+Its license and notice files, unchanged
+- "LICENSE" (MIT): Copyright (c) 2026 Lovecast Inc.
+
+What is different
+- orca-plugin.json is replaced by synqa-plugin.json, with a new id, publisher, name, description, license field and repository.
+- The field "cover" of the plugin file is left out.
+- The field "screenshots" of the plugin file is left out.
+- "images/cover.png" is left out. It is only for a store listing.
+- "images/explorer.png" is left out. It is only for a store listing.
+- "synqa-plugin.json" is added.
+- "README.md" is added.
+- "NOTICE" is added.
+
+Every other file is the original file, byte for byte.

@@ -1,0 +1,24 @@
+{
+  "manifestVersion": 2,
+  "id": "midnight-theme",
+  "name": "Midnight",
+  "version": "2.1.1",
+  "execution": "data",
+  "description": "A quiet dark theme tuned for long coding sessions.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.245"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "midnight",
+        "title": "Midnight",
+        "path": "themes/midnight.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "publisher": "synqa-inc",
+  "repository": "https://github.com/synqa-inc/synqa-plugins"
+}
